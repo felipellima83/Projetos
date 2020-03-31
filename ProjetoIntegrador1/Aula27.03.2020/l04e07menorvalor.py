@@ -8,7 +8,7 @@ Teste 2: valor: 2, 1, 0   Resposta: Menor = 1
 #inicio do programa aqui abaixo:
 i = 1
 menor = 999999
-while (True):
+while True:
     numero = int(input("Digite o {}º número ou digite 0 para encerrar: ".format(i)))
     i += 1
     if numero == 0:
@@ -16,6 +16,6 @@ while (True):
     elif numero < menor:
         menor = numero
 if menor == 999999:
-    print("nada")
+    print("Você não digitou nenhum número!")
 else:
-    print(menor)
+    print("O menor número digitado foi o", menor,".")

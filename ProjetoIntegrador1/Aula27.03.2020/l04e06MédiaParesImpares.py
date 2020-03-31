@@ -18,35 +18,35 @@ a. Mostre também a quantidade de números pares.
 b. Mostre também  a quantidade de números ímpares.
 
 '''
-somaPar = 0                                                # Soma dos números pares
+somaPar = 0
 somaImpar = 0
 ctPar = 0
-ctImpar = 0                                             # Contador de números pares
-valor = 1
+ctImpar = 0
+numero = 1
 i = 1
-print ('Digite zero (0) para sair')
-while (True):                                       # while True:
-    valor = int(input("Digite o {}º número: ".format(i)))
-    i += 1# recebe um número inteiro
-    if valor == 0:                                      # valor igual (==) 0 é a condição de saída
-        break                                           # O break força a saída da estrutura de repetição (while)
-    resto = valor % 2
-    if resto == 0:                                      # Se o valor recebido é par
-        somaPar = somaPar + valor                             # soma += valor  # incrementa a soma de valores recebidos
-        ctPar = ctPar + 1                                     # ct+= 1                # incrementa o registro de notas recebidas
+print ("Digite zero (0) para terminar a inserção de números!!!")
+while (True):
+    numero = int(input("Digite o {}º número: ".format(i)))
+    i += 1
+    if numero == 0:
+        break
+    resto = numero % 2
+    if resto == 0:
+        somaPar = somaPar + numero
+        ctPar = ctPar + 1
         mediaPar = somaPar / ctPar
     else:
-        somaImpar = somaImpar + valor
+        somaImpar = somaImpar + numero
         ctImpar = ctImpar + 1
-        mediaImpar = somaImpar / ctImpar                            # calcula a média
-if ctPar != 0 and ctImpar != 0:                                                        # Fim da estrutura de repetição "while"
+        mediaImpar = somaImpar / ctImpar
+if ctPar != 0 and ctImpar != 0:
     print("A media de {} números pares recebidos é {:.2f} e a média de {} números ímpares é {:.2f}."
-          .format(ctPar,mediaPar, ctImpar, mediaImpar)) # mostra o resultado
+          .format(ctPar,mediaPar, ctImpar, mediaImpar))
 if ctPar != 0 and ctImpar == 0:
     print("A media de {} números pares recebidos é {:.2f} e você não digitou nenhum número ímpar."
-          .format(ctPar, mediaPar))  # mostra o resultado
+          .format(ctPar, mediaPar))
 if ctPar == 0 and ctImpar != 0:
     print("A media de {} números ímpares recebidos é {:.2f} e você não digitou nenhum números par."
-          .format(ctImpar, mediaImpar))  # mostra o resultado
+          .format(ctImpar, mediaImpar))
 if ctImpar == 0 and ctPar == 0:
     print("Você não digitou nenhum número!")
