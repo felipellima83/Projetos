@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="caea8b80-aa2f-43bb-8953-07122fc93c1e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YyrfzqIMKNCom9uXrYWQaICWIs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.Media ilimitada">
+    <configuration name="Contador até numero pares" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Minicurso Python Básico" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aula 03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula 03/Contador até numero pares.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Contar até número" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Minicurso Python Básico" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aula 03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula 03/Contar até número.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Media ilimitada" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Minicurso Python Básico" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aula 03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula 03/Media ilimitada.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Senha" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Minicurso Python Básico" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aula 03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula 03/Senha.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Media ilimitada" />
+        <item itemvalue="Python.Senha" />
+        <item itemvalue="Python.Contador até numero pares" />
+        <item itemvalue="Python.Contar até número" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="caea8b80-aa2f-43bb-8953-07122fc93c1e" name="Default Changelist" comment="" />
+      <created>1583925782710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583925782710</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="771" y="200" width="642" height="771" key="#Contador_até_numero_pares" timestamp="1583926988101">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="771" y="200" width="642" height="771" key="#Contador_até_numero_pares/67.27.1853.1053@67.27.1853.1053" timestamp="1583926988101" />
+    <state width="1377" height="319" key="GridCell.Tab.0.bottom" timestamp="1583929893466">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="319" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1583929893466" />
+    <state width="1377" height="319" key="GridCell.Tab.0.center" timestamp="1583929893466">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="319" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1583929893466" />
+    <state width="1377" height="319" key="GridCell.Tab.0.left" timestamp="1583929893465">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="319" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1583929893465" />
+    <state width="1377" height="319" key="GridCell.Tab.0.right" timestamp="1583929893466">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="319" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1583929893466" />
+    <state width="1377" height="319" key="GridCell.Tab.1.bottom" timestamp="1583929893467">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="319" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1583929893467" />
+    <state width="1377" height="319" key="GridCell.Tab.1.center" timestamp="1583929893466">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="319" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1583929893466" />
+    <state width="1377" height="319" key="GridCell.Tab.1.left" timestamp="1583929893466">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="319" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1583929893466" />
+    <state width="1377" height="319" key="GridCell.Tab.1.right" timestamp="1583929893466">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="319" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1583929893466" />
+    <state x="67" y="343" width="1022" height="737" key="SettingsEditor" timestamp="1583925845747">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="67" y="343" width="1022" height="737" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1583925845747" />
+    <state x="760" y="301" width="672" height="678" key="search.everywhere.popup" timestamp="1583927606977">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="760" y="301" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1583927606977" />
+  </component>
+</project>
