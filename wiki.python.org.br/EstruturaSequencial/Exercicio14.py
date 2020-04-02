@@ -1,6 +1,6 @@
 #Felipe Lima
 #Linguagem: Python
-#Exercício 12do site: https://wiki.python.org.br/EstruturaSequencial
+#Exercício 14 do site: https://wiki.python.org.br/EstruturaSequencial
 
 #Entrada do peso pescado
 pesoPescado = float(input("Quantos quilos foram pescados? "))

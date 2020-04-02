@@ -1,6 +1,6 @@
 #Felipe Lima
 #Linguagem: Python
-#Exercício 12do site: https://wiki.python.org.br/EstruturaSequencial
+#Exercício 13 do site: https://wiki.python.org.br/EstruturaSequencial
 
 #Entra com a altura
 altura = float(input("Qual sua altura? "))

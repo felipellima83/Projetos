@@ -1,6 +1,6 @@
 #Felipe Lima
 #Linguagem: Python
-#Exercício 12 do site: https://wiki.python.org.br/EstruturaSequencial
+#Exercício 16 do site: https://wiki.python.org.br/EstruturaSequencial
 
 #Entrada
 altura = float(input("Qual a altura da área a ser pintada? "))

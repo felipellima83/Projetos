@@ -1,6 +1,6 @@
 #Felipe Lima
 #Linguagem: Python
-#Exercício 12do site: https://wiki.python.org.br/EstruturaSequencial
+#Exercício 15 do site: https://wiki.python.org.br/EstruturaSequencial
 
 #Entrada
 ganhoHora = float(input("Quanto você ganha por hora? "))
