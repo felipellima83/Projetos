@@ -10,4 +10,9 @@ porc_masc = ct_masc / (ct_masc + ct_fem) * 100     # b.
 '''
 #inicio do programa aqui abaixo:
 
+
+
+
+
+
 # Esse programa foi desenvolvido na aula de lógica de programação no dia 01/04/2020
