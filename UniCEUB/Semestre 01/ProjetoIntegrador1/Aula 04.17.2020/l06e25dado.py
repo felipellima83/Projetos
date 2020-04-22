@@ -20,15 +20,15 @@ lista1=[] #lista 1 declarada, mas está vazia
 lista2=[] #lista 2 declarada, mas está vazia
 
 # Letras A e B
-for x in range(1,6+1):
-    print(x)
+for x in range(1, 7):
+    print(x, end=' ')
     if x%2==0:
         #y=x
         lista1.append(x) #lista.append() - adiciona um valor para lista
     if x%2==1:
         #z=x
         lista2.append(x)
-print(lista1,lista2)
+print("\n",lista1,lista2)
 
 # Letra C
 print("Os números sorteados foram:")
