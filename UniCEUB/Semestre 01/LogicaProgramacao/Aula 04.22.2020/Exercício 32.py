@@ -19,6 +19,6 @@ for i in lista:
     print(i)
 
 #Letra B
-print("Decimal - Octal")
+print("Decimal - Hexdecimal")
 for i in range(16):
     print(f"{i} - {hex(i)[2:].upper()}")
