@@ -87,7 +87,7 @@ while life > 0:
         ct=0
         while True:
             #Variável senha para as 3 tentativas        
-            senha = int(input(f"Qual a senha, restam {3-ct} tentativas: "))
+            senha = int(input(f"Qual a senha (0-9), restam {3-ct} tentativas: "))
             #Adiciona 1 no contador de tentativas em desarmar a bomba
             ct+=1
             #Falha na tentativa se errar 3 vezes a senha
