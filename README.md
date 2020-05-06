@@ -1,2 +1,2 @@
-# Projetos
-#Projetos estudados pelo proprietário do repositório
+# UniCEUB
+#Projetos estudados na universidade UniCEUB
