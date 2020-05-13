@@ -1,3 +1,10 @@
+#Curso: Ciência da Computação
+#Professor: Antônio Barbosa Junior
+#Disciplina: Lógica de programação
+#Alunos: Altair Correia Azevedo, André Luiz Vieira Mostaro e Felipe Ferreira Lima e Lima
+
+# While com if dentro 02
+# JOGO PEDRA, PAPEL OU TESOURA - este programa recebe um número referente a uma opção e retorna o resultado em um jogo de melhor de 5
 import random
 ct=0
 pontuacaoJ = 0
