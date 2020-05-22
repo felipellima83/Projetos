@@ -8,9 +8,16 @@ a mensagem “É ímpar.”. Use variável local.
 '''
 
 #criar funcao
-
+def e_par (a):
+    if a % 2 == 0:
+        return True
+    else:
+        return False
 
 #iniciar o programa
+if __name__ == "__main__":
+    n1 = int(input("Digite o número: "))
+    print(e_par(n1))
 
 '''
 Alterações

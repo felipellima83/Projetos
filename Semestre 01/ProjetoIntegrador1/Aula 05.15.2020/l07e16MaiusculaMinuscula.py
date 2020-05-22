@@ -8,10 +8,22 @@ tecla lida e mostra o valor retornado pela função maiuscula_minuscula.
 '''
 
 #criar funcao
-
+def maiscula_minuscula(a):
+        if a.isupper():
+                retorno = a.lower()
+        else:
+                retorno = a
+        return retorno
 
 #iniciar o programa
-
+if __name__ == "__main__":
+    while True:
+        a = input("Letra: ")
+        if a != "aa":
+                print(maiscula_minuscula(a))
+        else:
+                break
+        
 
 
 

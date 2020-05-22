@@ -7,19 +7,28 @@ valor inteiro positivo, nulo ou negativo e o expoente, um inteiro positivo ou nu
 Não use a função de potência da linguagem Python. E use variável local.
 Teste 1: base = 2, expoente = 3. Resposta: 8.
 '''
+#import
+import math
+
 #criar funcao
-def potencia (a,b):
-    if b >= 0:
+def potencia (a,b):    
         c = a**b
-    else:
-        print("O expoente não pode ser menor que 0!")
-    print(c)
+        print(f"O resultado da potenciação é {c}.")
 
 #iniciar o programa
 if __name__ == "__main__":
-    n1 = int(input("Digite o valor da base: "))
-    n2 = int(input("Qual o valor do expoente: "))
-    def potencia (n1,n2)
+    #alteração b
+    while True:
+        n1 = int(input("Digite o valor da base: "))
+        n2 = int(input("Qual o valor do expoente: "))
+        #alteração a
+        if n2 >= 0:
+            potencia (n1,n2)
+            break
+        else:
+            print("O valor da potência não pode ser menor que 0!")
+    #alteração c
+    print(f"O resultado da potenciação é {pow(n1,n2)}.")
 
 '''
 Alterações:
