@@ -13,24 +13,14 @@ Gere a tela de saída com os valores armazenados na lista.
 ex: lista.append(valor)
 --------------------------------------------------------------------------
 '''
-#inicio
-lista = []
-ct=0
-tamanho_lista = int(input("Quantos elementos tem na lista? "))
-while ct < tamanho_lista:
-    num = int(input(f"Digite o {ct+1}º número a ser inserido na lista: ")) 
-    lista.append(num)
-    ct+=1
-print(lista)
-
-ct2=0
-#Alteração A
-for i in range(0,tamanho_lista):
-    #Alteração B
-    print(f"[{ct2}] = ", lista[i])
-    ct2+=1
-
-
+l_valores = [ ]                                # Lista inicialmente vazia
+for i in range(0, 3):                        # Repete 3 vezes
+    # Recebe um número do usuário e adiciona à lista
+    num = int(input("Digite um número: "))
+    l_valores.append(num)
+# mostra todos os valores da lista
+print ('Valores da lista:')
+print (l_valores)              # print (l_valores[ : : ]) 
 '''
 Alterações:
 a. Mostre os valores armazenados na lista na vertical usando o for com a lista.
@@ -40,5 +30,18 @@ c. Mostre os valores armazenados na lista usando notação de vetor, use o for c
 d. Mostre os valores armazenados na lista usando notação de vetor, use o for com range.
     E suas respectivas posições usando notação
         DICAS:
+for conteudo in l_valores:            # a.
+    print(conteudo)
+ct = 0                                             # b.
+print ('Posição -> Valor')
+for conteudo in l_valores:
+    print(ct , " -> ", conteudo)
+    ct = ct + 1
+for i in range(0, 3):                         # c. 
+    print(l_valores [ i ] )
+print ('Posição -> Valor')              # d.
+for i in range(0, 3):                         
+    print (i, " - ", l_valores[i] )
+    #print("[", i, "] : ", l_valores[i])
     
 '''

@@ -4,6 +4,7 @@ Gere a tela de saída com todos os valores armazenados na lista, a soma dos valo
 armazenados nos índices(posições) pares da lista e a soma dos valores armazenados
 nos índices(posições) ímpares da lista.
 '''
+lista = []
 
 
 
