@@ -16,9 +16,15 @@ def encerrar ():
 def saldo_conta ():
     return saldo
 
-def depositar (saldo, deposito):
+def depositar (deposito):
     saldo += deposito
     print(f"Você depositou R$ {deposito}.")
+
+def sacar():
+    pass
+
+def imprime_extrato ():
+    print(extrato)
 
 def senha ():    
     senha = int(input("Digite a senha: "))
@@ -37,12 +43,19 @@ def senha ():
                 opcao = int(input("Qual opção deseja executar? "))
             elif opcao == 2:
                 deposito = float(input("Quanto você quer depositar? "))
+                extrato.append(deposito)
                 depositar(deposito)
                 print("----MENU PRINCIPAL----\n[0] Encerrar o programa\n[1] Saldo\n[2] Depositar\n[3] Sacar\n[4] Extrato\n")
             elif opcao == 3:
-                pass
+                saque = float(input("Quanto você quer sacar? "))
+                extrato.append(saque*-1)
+
+                print("----MENU PRINCIPAL----\n[0] Encerrar o programa\n[1] Saldo\n[2] Depositar\n[3] Sacar\n[4] Extrato\n")
+                opcao = int(input("Qual opção deseja executar? "))
             elif opcao == 4:
-                pass
+                imprime_extrato()
+                print("----MENU PRINCIPAL----\n[0] Encerrar o programa\n[1] Saldo\n[2] Depositar\n[3] Sacar\n[4] Extrato\n")
+                opcao = int(input("Qual opção deseja executar? "))
             else:
                 print("Não existe essa opção!")
     else:
@@ -80,5 +93,5 @@ def senha ():
 
 if __name__ == "__main__":
     saldo = 0
-    deposito = 0
+    extrato = []
     senha()
