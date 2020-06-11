@@ -1,4 +1,4 @@
-#3.1. Elabore o enunciado e a resolução de um programa em Python usando o programa principal (função main) e pelo menos seis funções (def) e as estruturas if ... elif ... else, while e for.
+#3.1. Elabore um programa que simule uma conta corrente que solicite senha para acessar o programa e posteriormente de as opções de depositar, sacar, saldo e extrato.
 
 from time import sleep
 
@@ -14,84 +14,107 @@ def encerrar ():
     print("Programa Encerrado!")
 
 def saldo_conta ():
-    return saldo
+    saldo = 0
+    for i in extrato:
+        saldo += i
+    print(f"\nSEU SALDO ATUAL É DE R$ {saldo} EM SUA CONTA.\n")
 
-def depositar (deposito):
-    saldo += deposito
-    print(f"Você depositou R$ {deposito}.")
+def depositar ():
+    deposito = float(input("\nQuanto você quer depositar? "))
+    extrato.append(deposito)
+    print(f"VOCÊ DEPOSITOU R$ {deposito}.")
 
 def sacar():
-    pass
+    saque = float(input("\nQuanto você quer sacar? "))
+    extrato.append(saque*-1)
+    print(f"VOCÊ SACOU R$ {saque}.")
 
 def imprime_extrato ():
-    print(extrato)
+    print(f"EXTRATO DOS LANÇAMENTOS\n{extrato}")
 
 def senha ():    
     senha = int(input("Digite a senha: "))
     ct=3 # Contador do limite de tentativas para inserir a senha correta
+    
     if senha == 123:        
-        print("Acesso Garantido!\n")
+        print("\n-------------------\n| Acesso Garantido! |\n-------------------\n")
         print("----MENU PRINCIPAL----\n[0] Encerrar o programa\n[1] Saldo\n[2] Depositar\n[3] Sacar\n[4] Extrato\n")
         opcao = int(input("Qual opção deseja executar? "))
+        
         while True :
+            
             if opcao == 0:
                 encerrar()
                 break
+            
             elif opcao == 1:
-                print(f"\nSEU SALDO ATUAL É DE R$ {saldo_conta()} EM SUA CONTA.\n")
-                print("----MENU PRINCIPAL----\n[0] Encerrar o programa\n[1] Saldo\n[2] Depositar\n[3] Sacar\n[4] Extrato\n")
+                saldo_conta()
+                print("\n----MENU PRINCIPAL----\n[0] Encerrar o programa\n[1] Saldo\n[2] Depositar\n[3] Sacar\n[4] Extrato\n")
                 opcao = int(input("Qual opção deseja executar? "))
+            
             elif opcao == 2:
-                deposito = float(input("Quanto você quer depositar? "))
-                extrato.append(deposito)
-                depositar(deposito)
-                print("----MENU PRINCIPAL----\n[0] Encerrar o programa\n[1] Saldo\n[2] Depositar\n[3] Sacar\n[4] Extrato\n")
-            elif opcao == 3:
-                saque = float(input("Quanto você quer sacar? "))
-                extrato.append(saque*-1)
-
-                print("----MENU PRINCIPAL----\n[0] Encerrar o programa\n[1] Saldo\n[2] Depositar\n[3] Sacar\n[4] Extrato\n")
+                depositar()                
+                print("\n----MENU PRINCIPAL----\n[0] Encerrar o programa\n[1] Saldo\n[2] Depositar\n[3] Sacar\n[4] Extrato\n")
                 opcao = int(input("Qual opção deseja executar? "))
+            
+            elif opcao == 3:
+                sacar()
+                print("\n----MENU PRINCIPAL----\n[0] Encerrar o programa\n[1] Saldo\n[2] Depositar\n[3] Sacar\n[4] Extrato\n")
+                opcao = int(input("Qual opção deseja executar? "))
+            
             elif opcao == 4:
                 imprime_extrato()
-                print("----MENU PRINCIPAL----\n[0] Encerrar o programa\n[1] Saldo\n[2] Depositar\n[3] Sacar\n[4] Extrato\n")
+                print("\n----MENU PRINCIPAL----\n[0] Encerrar o programa\n[1] Saldo\n[2] Depositar\n[3] Sacar\n[4] Extrato\n")
                 opcao = int(input("Qual opção deseja executar? "))
+            
             else:
                 print("Não existe essa opção!")
+    
     else:
+        
         while senha != 123:
             print("Senha incorreta. Tente novamente!\n")  
             print(f"Você tem mais {ct-1} chance(s)!")
             senha = int(input("Digite a senha: "))
             ct-=1
+            
             if ct == 1:
                 break
+        
         if senha == 123:
-            print("Acesso Garantido!\n")
-            print("---MENU PRINCIPAL---\n[0] Encerrar o programa\n[1] Depositar\n[2] Sacar\n[3] Saldo\n[4] Extrato\n")
+            print("\n-------------------\n| Acesso Garantido! |\n-------------------\n")
+            print("----MENU PRINCIPAL----\n[0] Encerrar o programa\n[1] Saldo\n[2] Depositar\n[3] Sacar\n[4] Extrato\n")
             opcao = int(input("Qual opção deseja executar? "))
+            
             while True :
+            
                 if opcao == 0:
                     encerrar()
                     break
+                
                 elif opcao == 1:
-                    print(f"Seu saldo atual é de R$ {saldo_conta()} em sua conta.\n")
-                    print("----MENU PRINCIPAL----\n[0] Encerrar o programa\n[1] Depositar\n[2] Sacar\n[3] Saldo\n[4] Extrato\n")
+                    saldo_conta()
+                    print("\n----MENU PRINCIPAL----\n[0] Encerrar o programa\n[1] Saldo\n[2] Depositar\n[3] Sacar\n[4] Extrato\n")
                     opcao = int(input("Qual opção deseja executar? "))
+                
                 elif opcao == 2:
-                    pass
+                    depositar()                
+                    print("\n----MENU PRINCIPAL----\n[0] Encerrar o programa\n[1] Saldo\n[2] Depositar\n[3] Sacar\n[4] Extrato\n")
+                    opcao = int(input("Qual opção deseja executar? "))
+                
                 elif opcao == 3:
-                    pass
+                    sacar()
+                    print("\n----MENU PRINCIPAL----\n[0] Encerrar o programa\n[1] Saldo\n[2] Depositar\n[3] Sacar\n[4] Extrato\n")
+                    opcao = int(input("Qual opção deseja executar? "))
+                
                 elif opcao == 4:
-                    pass
+                    imprime_extrato()
+                    print("\n----MENU PRINCIPAL----\n[0] Encerrar o programa\n[1] Saldo\n[2] Depositar\n[3] Sacar\n[4] Extrato\n")
+                    opcao = int(input("Qual opção deseja executar? "))
+                
                 else:
-                    print("Não existe essa opção!")
-        else:
-            print("\nLimite de tentativas excedido!\n")
-            encerrar()     
-    
+                    print("Não existe essa opção!")   
 
 if __name__ == "__main__":
-    saldo = 0
     extrato = []
     senha()
