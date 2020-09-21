@@ -16,4 +16,3 @@ if __name__ == "__main__":
     n2 = int(input("Digite o segundo número: "))
     retorno = maximo(n1,n2)
     print(f"O maior é {retorno}.")
-    def le_valor(n1)
