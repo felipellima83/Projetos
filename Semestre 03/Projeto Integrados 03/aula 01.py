@@ -20,10 +20,24 @@ Implemente:
 - Use o método __class__.__name__ no objeto cliente
 - Mostre os atributos do objeto cliente com o método __dict__
 14- Mostre os atributos do objeto cliente com o método vars           """
+class Cliente(object):
+    def __init__(self, nome, sobrenome, cpf):
+        self.nome = nome
+        self.sobrenome = sobrenome
+        self.cpf = cpf
+    def get_nome(self):
+        return self.nome
+    def get_sobenome(self):
+        return self.sobrenome
+    def get_cpf(self):
+        return self.cpf
+    def nome_completo(self):
+        nc = f'{self.nome}, {self.sobrenome}'
+        return nc
 class Conta:
-    def __init__(self, numero, nome_cliente, saldo, limite=1000.0):
+    def __init__(self, numero, Cliente, saldo, limite=1000.0):
         self.numero = numero
-        self.titular = nome_cliente
+        self.titular = Cliente
         self.saldo = saldo
         self.limite = limite
     def get_titular(self):
@@ -57,9 +71,11 @@ class Conta:
         # print("Extrato:\nNome: {}, Número: {}, Saldo: {}".format(self.titular, self.numero, self.saldo))
         print(f"Extrato:\nNome: {self.titular}, Número: {self.numero}, Saldo: {self.saldo}")
 if __name__ == '__main__':  # mai <tab>
-    conta1 = Conta('123-4', 'João', 1200.0, 1000.0)  # Chama o contrutor (__init__)
-    print(conta1)
-    # <conta_agregacao.Conta object at 0x000002B9DBA4AF70>
+    cliente1 = Cliente('Felipe', 'Lima', '70845093134')
+    print('Nome: ', cliente1.get_nome())
+    conta1 = Conta('123-4', cliente1, 1200.0, 1000.0)  # Chama o contrutor (__init__)
+    print(cliente1)
+    print(conta1)    # <conta_agregacao.Conta object at 0x000002B9DBA4AF70>
     print('Nome:', conta1.get_titular())    # Consulta      nome_objeto.nome_metodo()
     print('Número:', conta1.get_numero())
     conta1.set_titular('Ana')               # Altera o nome do cliente
