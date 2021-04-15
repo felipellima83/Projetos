@@ -52,11 +52,6 @@ class Cliente(object):          # class Cliente:
     def nome_completo(self):
         nc = f'{self.nome} {self.sobrenome}'
         return nc
-class Historico:
-    def __init__(self):
-        self.data_abertura = datetime.today()
-        self.transacoes = []
-    def get_data_abertura(self)
 class Conta:                    # class Conta(object):
     def __init__(self, numero, cliente, saldo, limite=1000.0):  # O parãmetro cliente recebe um objeto da classe Cliente
         self.numero = numero
